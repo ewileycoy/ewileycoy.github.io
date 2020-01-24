@@ -2,6 +2,7 @@ name: Ramblings of a Greybeard
 markdown: kramdown
 plugins:
   - jekyll-relative-links
+  - jekyll-theme-slate
 relative_links:
   enabled: true
   collections: true
