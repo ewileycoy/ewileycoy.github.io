@@ -1,5 +1,8 @@
 After years of fits and starts I should probably start a real blog. Most of the time I’m not sure if I’ve got anything interesting to say, so we’ll see. I’ve got opinions!
 
+# GitHub pages
+This is my first use case for a github page, so I’m still climbing the learning curve on iOS, github, Jekyll, and markdown. This blog will likely be a little ugly 😺 
+
 # Initial Thoughts
 I should share what I’m good at.
 
