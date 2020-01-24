@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-slate
 name: Ramblings of a Greybeard
 markdown: kramdown
 plugins:
