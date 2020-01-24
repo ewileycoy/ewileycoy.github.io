@@ -7,4 +7,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+github:
+  is_project_page: false
   
