@@ -1,4 +1,10 @@
-# So I had a crazy idea...
+
+---
+layout: default
+title: Smart cards for User Impersonation
+By: Karl
+---
+So I had a crazy idea...
 A project at work from the IT department caught my attention: replacing hardware and migrating user data with the absolute least disruption to the end-user.
 Fortunately my IT manager colleague was thinking security-first and asked me how best to handle user credentials during their migration. The migration process could take 8-10 hours depending on mailbox size, user profile issues, and giving time for QA. His first thought was to reset user passwords for the day and have the user reset it at the end, however this would cause disruption with a variety of systems tied to their password.
 
