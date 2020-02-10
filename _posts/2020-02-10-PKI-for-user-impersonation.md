@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Smart cards for User Impersonation
