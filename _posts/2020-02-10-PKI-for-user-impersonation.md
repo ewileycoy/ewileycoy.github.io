@@ -3,7 +3,7 @@ layout: default
 title: Smart cards for User Impersonation
 By: Karl
 ---
-So I had a crazy idea...
+# So I had a crazy idea...
 A project at work from the IT department caught my attention: replacing hardware and migrating user data with the absolute least disruption to the end-user.
 Fortunately my IT manager colleague was thinking security-first and asked me how best to handle user credentials during their migration. The migration process could take 8-10 hours depending on mailbox size, user profile issues, and giving time for QA. His first thought was to reset user passwords for the day and have the user reset it at the end, however this would cause disruption with a variety of systems tied to their password.
 
@@ -22,13 +22,14 @@ There were a few major areas I wanted to focus on in this scheme—since if it w
 3. Limitation of risk if things went badly (e.g. a token is stolen or mis-used)
 
 ## Setup
-Windows 2012 R2 Active Directory Certificate Services
-Taglio PIVKey T600 USB tokens
+Our current setup with PKI uses the following components:
+* Windows 2012 R2 Active Directory  Certificate Services
+* Taglio PIVKey T600 USB tokens
 
 Some notes:
 - I selected the Taglio tokens because they can hold up to 30 certificates using their mini driver. They’re also relatively inexpensive, have a USB form-factor, and are readily available through Amazon.
 - By default though, Windows does not see all the certificates and won’t work correctly if you don’t take specific steps to map the certificates.
-- The minidriver is pretty simple to distribute as an MSI file to potential windows clients.
+- The PIVKey minidriver is pretty simple to distribute as an MSI file to windows clients.
 
 
 ## PKI Token security
@@ -36,7 +37,7 @@ PKI tokens tend to be pretty secure by design. They have tamper-resistant circui
 
 I recommend using Versasec’s vSEC:CMS tool to set the admin key to a random value and securely storing that somewhere. It’s a nice advantage to be able to un-block the card in the event of a PIN lockout.
 
-Importantly the Taglio admin tools treat the admin key differently than vSEC so do not alternate tools when setting or recovering the admin key!
+Importantly, the Taglio admin tools treat the admin key differently than vSEC so do not alternate tools when setting or recovering the admin key!
 
 The Javacard operating system does not support changing the PIN policy, so you’re stuck with 6 characters and 10 tries until lockout. For me this is perfectly acceptable since 
 
