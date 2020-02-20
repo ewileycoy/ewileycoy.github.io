@@ -1,6 +1,6 @@
 ### Site info:
 title: Ramblings
-tagline: Ramblings of a Greybeard
+tagline: Blog of a Greybeard
 author: Karl Mueller
 email: ewiley@gmail.com
 description: "Ramblings on InfoSec" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
@@ -16,7 +16,7 @@ github_username:  ewileycoy
 favicon:     "/images/favicon.ico"
 aboutme: Hi, I'm Karl, please feel free to rant
 aboutme_photo: 
-google_analytics_key: 
+google_analytics_key: UA-158808477-1
 
 
 ### Site setting:
@@ -173,12 +173,10 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+      - name: Karl
+        href: https://ewileycoy.github.io
+        title: Ramblings of a Greybeard
+
 
 
 ### Build settings
