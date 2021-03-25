@@ -59,7 +59,7 @@ Since ADCS lacks a remote issuance capability for signature-required requests[^1
 ## Risk limitation
 How can I limit the consequences and chances of misuse, abuse, or exploitation of this scheme?
 
-* **Certificate lifetimes**: I very much wanted this to be an ephemeral solution that self-cancels, which PKI lends itself to nicely. I created policies on certificate templates that specify expiration time in just 3 days to give admins time to use the logins but not take so long that there’s a risk of continuing access. 
+* **Certificate lifetimes**: I very much wanted this to be an ephemeral solution that self-cancels, which PKI lends itself to nicely. I created policies on certificate templates that specify expiration time in just 3 days to give admins time to use the logins but not take so long that there’s a risk of continuing access. Also, make sure to uncheck ‘publish certificate in AD’ on the template. Since these are temp certificates there’s no need to publish them.
 
 * **Revocation**: We do have the ability to revoke the certificate from the CA to disable it. This requires forcing CRL checking in Windows login [citation needed] so the certificate can’t be used if it’s revoked. Also a robust configuration using published CRL and OSCP helps close the gap quickly, since these revocation lists are not published in real-time.
 
