@@ -13,14 +13,12 @@ I am going to give my take on this..thing. Don’t think that I’m just defensi
 First off, there’s no evidence that Colonial was following “industry best practices”. Quite the opposite, [according to their bizarrely-public auditor](https://apnews.com/article/va-state-wire-technology-business-1f06c091c492c1630471d29a9cf6529d).
 
 > It is only getting worse. Reports surface daily about new incidents involving prominent health care providers, government agencies or retailers hit by hackers — thus releasing millions or billions of pieces of sensitive information all over the dark web.
-
 > Guarding over these critical resources, health care providers and government agencies are a veritable army of information security professionals. 
-
 > They sport impressive credentials and certifications like Certified Information Systems Security Professional (CISSP) and Certified Information System Auditor (CISA). Many even have academic credentials, including bachelors, master and doctoral degrees in information security. All of them embrace the latest "industry best practices."
+
 “Impressive credentials”. So ya know if you’re hiring people just because of their credentials you’re failing.
 
 > These impressively credentialed professionals are skilled in the art of tedium. They know all about audits. They can absolutely push paper. 
-
 > They can painfully examine endless lists of accounts and identify exactly who does, and who does not, need system or service access. They can write impressive 100-page missives justifying a proposed new password policy.
 
 Ahahahaha. I’m sorry, this is so *ad hominem* I’m literally embarrassed for this “professor”. If only access reviews were actually “examined” rather than just rubber-stamped.
@@ -36,13 +34,11 @@ This is __actually__ a good point that’s buried in a bullshit rant about CISSP
 This isn’t the point he’s making—that security controls should cooperate with *users* and enable *users* to get their jobs done safely. The rant he’s on is that *administrators* don’t have sufficient access. This is utterly ridiculous.
 
 > So with all of these impressively credentialed experts, we should be getting better at this "information security" business, right? So, what is wrong?
-
 > The core problem is that "industry best practices" are not.
 
 You are confusing “industry best practice” with “industry de facto practice”.
 
 > Not only are "industry best practices" not "best" practices, but they are also dangerous practices
-
 > Industry best practices," for instance, dictate that network administrators should be boxed in administratively. They should not be able to see what is happening on workstations, servers or storage resources. Server administrators, likewise, should be administratively restricted from being able to monitor network information or anything else that is not directly related to one specific niche job function.
 
 Visibility and administration are TWO DIFFERENT THINGS. If you think you need full admin rights to monitor things, you have no idea what you’re talking about and should be ignored. It’s perfectly possible to give someone fully access to logs and not need admin rights.
