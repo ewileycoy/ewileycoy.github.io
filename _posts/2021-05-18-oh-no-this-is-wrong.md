@@ -49,7 +49,7 @@ No they do not.
 
 > A network engineer, for instance, does not have the tools or access to investigate the activity occurring on an innocuous sales department workstation at 3 a.m. A server administrator lacks the access to explore why the network throughput seems painfully slow while trying to copy files.
 
-Is this the network engineer’s job? Who is monitoring these systems in the first place?
+Is this the network engineer’s job? Are they even looking for this? Is it a sysadmin’s job to monitor the network? Who is monitoring these systems in the first place? It sounds like a huge confusion about expertise and managing systems. Please don’t let my system admins make changes to my routers. They have no idea the effects of changes. Why would you even argue this?
 
 > The "good guys" are administratively prevented from having a holistic view of systems, networks, applications, workstations and other resources — when this holistic view is exactly what is needed to prevent cyber attacks.
 > It seems the only person with a truly holistic view of a corporate network and data resources is the hacker. Unfortunately, hackers tend to not comply with corporate information security policy. 
