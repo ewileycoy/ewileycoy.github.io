@@ -3,7 +3,8 @@ layout: default
 title: (Windows) Hello, is it me you’re looking for?
 By: Karl
 ---
-![Lionel Richie](/images/hello.PNG)
+![Lionel Richie says Hello](/images/hello.PNG)
+
 Microsoft has an irritating habit of naming products in confusing ways. Skype vs. Skype for Business; Forefront products became Defender products; Zune became... [They’ve been doing this forever](https://www.techrepublic.com/blog/windows-and-office/earth-to-microsoft-please-stop-changing-your-product-names/)
 
 They don’t stop with OS components either: Windows Hello! is theoretically an authentication mechanism or suite of controls around [enabling Microsoft’s password-less strategy.](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-deployment) I love the idea of getting rid of passwords! They’re frequently the cause of breaches and I’ve personally seen them play a key role in red team wins, pentest failures, and account compromises. The bolt-on of multi factor/multi step/2FA doesn’t always fix the problem since there are ways to side-step or intercept the second factor.
