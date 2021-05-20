@@ -107,3 +107,8 @@ Hi, wait hello, is this the end of the article? Like where are your ACTUAL SUGGE
 
 This entire article is a screed on how the “good guys” (developers and network engineers?) somehow know more about security than people whose livelihood depends on it. “Don’t hire security people who’ve been breached” Well according to this guy just hire a bunch of network engineers and devs and call it a day!
 
+Finally, the role of business management seems to be entirely ignored. Management remains ultimately responsible for their firm’s security. Hiring the wrong people, getting the wrong advice, or using the wrong technology are all business decisions. I’m not saying the security industry is blameless or doesn’t lie about capabilities, but blaming “best practice” on charlatan vendors misses the point by a mile.
+
+We need better adoption of real “best practice” like the [CIS controls](https://www.cisecurity.org/controls/cis-controls-list/). Honest and thorough adoption of well-understood security controls can work! There are a lot of motivated criminals out there, why don’t 100% of all business suffer from ransomware all the time? Because security controls work when applied properly.
+
+Are they perfect? Of course not. Should you rip the seat belts out of your car because they’re restricting your motion? Probably not!
