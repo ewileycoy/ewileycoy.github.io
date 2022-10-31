@@ -10,7 +10,6 @@ url: "https://ewileycoy.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: infosecspy
 github_username:  ewileycoy
 
 favicon:     "/images/favicon.ico"
@@ -20,7 +19,7 @@ google_analytics_key: UA-158808477-1
 
 
 ### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
 
