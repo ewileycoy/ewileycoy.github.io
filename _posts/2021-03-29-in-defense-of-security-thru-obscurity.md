@@ -1,7 +1,8 @@
 ---
-layout: default
 title: In defense of Security through Obscurity
-By: Karl
+date: 2021-03-29
+categories: [InfoSec]
+tags: [defense-in-depth, obscurity, threat-modeling]
 ---
 
 Ok, Hear Me Out.

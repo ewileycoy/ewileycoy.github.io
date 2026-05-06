@@ -1,7 +1,8 @@
 ---
-layout: default
 title: My First Trick
-By: Karl
+date: 2020-01-27
+categories: [Meta]
+tags: [blogging]
 ---
 # For my first trick
 I decided to abandon anything related to blogging and try something new, both as a learning exercise and an excuse to get a fancy iPad Pro and keyboard.

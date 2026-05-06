@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Request Tracker SSO configuration
-By: Karl
+date: 2019-08-31
+categories: [InfoSec, How-To]
+tags: [sso, saml, request-tracker, adfs]
 ---
 
 This is a pretty old post but some might find it useful!

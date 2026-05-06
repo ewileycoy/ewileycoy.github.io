@@ -1,7 +1,8 @@
 ---
-layout: default
 title: The Pain of GRC
-By: Karl
+date: 2021-03-23
+categories: [InfoSec, GRC]
+tags: [grc, compliance, hitrust, soc2, cmmc, vendor-management]
 ---
 
 As a security director with a large professional services firm, we get a *lot* of requests from clients to fill-out The Spreadsheets. You know the ones, the insane multi-tab macro-enabled monstrosities or garbage platforms like RSA Archer (slowly being replaced by silly startups like Whistic). All of which are just trying to glean the same basic information: Are you a complete moron who’s not going to lie to us? Seriously, though, I’m protecting data. I have regulatory requirements, and already Bad Things will happen if I screw that up.

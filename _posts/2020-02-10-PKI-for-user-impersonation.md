@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Smart cards for User Impersonation
-By: Karl
+date: 2020-02-10
+categories: [InfoSec]
+tags: [pki, smart-card, impersonation, identity]
 ---
 # Using things the wrong way
 As a professional services firm, every hour of downtime for a user costs money, so anything IT can do to reduce user disruption means (potentially) more billable hours for the firm. New hardware means a long tedious migration for the end user (the reasons thereof are beyond this particular article)

@@ -1,7 +1,8 @@
 ---
-layout: default
 title: What is MFA really? A Small Discussion on Authentication
-By: Karl
+date: 2021-05-16
+categories: [InfoSec, Identity]
+tags: [mfa, authentication, nist-800-63, factors]
 ---
 
 There still seems to be a lot of confusion around what is multi factor, multi step, or what constitutes good authentication in the first place. 

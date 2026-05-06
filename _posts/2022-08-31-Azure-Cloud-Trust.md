@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Hello! Finally a Cloud I can Trust
-By: Karl
+date: 2022-08-31
+categories: [InfoSec, Identity]
+tags: [azure, cloud-trust, kerberos, windows-hello, passwordless]
 ---
 
 ## Introduction
