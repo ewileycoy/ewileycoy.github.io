@@ -6,7 +6,7 @@ tags: [azure, cloud-trust, kerberos, windows-hello, passwordless]
 ---
 
 ## Introduction
-[I've written about Windows Hello for Business before](/2021/04/15/Hello-is-it-me.html) along with the promises and confusion it brings. To Microsoft's credit they've been maturing and improving incrementally, adding features and pushing their "passwordless" initative consistently. With the advent of Windows 10 21H2 Microsoft introduced a new way to onboard and authenticate devices using a "Cloud Trust" model also called "Cloud Kerberos Trust". I think this is a great step forward and between Microsoft, Google, and Apple, hopefully we can continue to displace passwords.
+[I've written about Windows Hello for Business before](/posts/Hello-is-it-me/) along with the promises and confusion it brings. To Microsoft's credit they've been maturing and improving incrementally, adding features and pushing their "passwordless" initative consistently. With the advent of Windows 10 21H2 Microsoft introduced a new way to onboard and authenticate devices using a "Cloud Trust" model also called "Cloud Kerberos Trust". I think this is a great step forward and between Microsoft, Google, and Apple, hopefully we can continue to displace passwords.
 
 To take a step back, Microsoft is leaning-in to a "passwordless" strategy that involves the use of trusted cryptographic devices that can attest to an account, rather than a memorized secret.
 
